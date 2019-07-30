@@ -1,0 +1,210 @@
+/* from this there are started styles of blocks*/
+body{
+		font-family:"Times New Roman", Times, serif;
+	}
+
+#priceWork{
+		border-radius:20px;
+		padding:2% 5%;
+		background:#ff4e2e;
+		color:#fff;
+}
+#mySkill,#exampleWork{
+		text-align:center;
+		margin:1% auto;
+		padding:0;
+	}
+
+/* from this there are started styles of elements*/
+p.pLink{
+	margin:0;
+}
+#layOutMain a{
+	padding:2% 2% 2% 0;
+	display:inline-block;
+	font-size:0.9em;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+section a:hover{
+	color:red;
+	border:1px solid #f82370;
+	border-radius:7px;
+}
+button.callButton{
+	margin-top:2%;
+	background:#fff;
+	color:#f82370;
+	border:1px solid #f82370;
+	border-radius:0.5em;	
+	padding: 0.5em 1em;
+}
+button.buttonOption{
+	background:#ff4e2e;
+	color:#fff;
+	border: 1px solid #f82370;
+	border-radius:0.7em;
+	width:auto;	
+	padding:1em 1em;
+	margin-top:5%;
+}
+#mySkill button.buttonOption,#exampleWork button.buttonOption{
+	display:block;
+	margin:3% auto;
+	clear:both;
+}
+h1{
+	font-size:1.5em;
+	margin-bottom:2%;
+}
+h4{
+	font-size:0.8em;
+	margin:0;
+}
+h4,figcaption,li a, figcaption a{
+	color:#8993ad;
+}
+#mainImage{
+	margin:2%;
+	width:50%;
+	float:right;
+}
+h2{
+	font-size:1.3em;
+	margin:1% auto;
+	text-align:center;
+	clear:both;
+}
+ figure {
+ 	display:block;
+ 	vertical-align: top;
+    background: #fff;
+    padding: 1%; 
+    box-sizing: border-box; 
+    margin: 2% 2%; 
+    text-align: center;
+   }
+figcaption {
+   	text-align: center;
+   }
+ #mySkill figure {
+	width:100%;
+	margin:0 auto;
+ }
+
+#exampleWork img {
+	height: 130px;
+	object-fit: cover;
+	border:1px solid grey;
+}
+
+#exampleWork a{
+	display:inline-block;
+	margin:0 1%;
+}
+#exampleWork figcaption{
+	font-size:1.2em;
+}
+
+#priceWork p:nth-child(3), h3{
+	padding-left:0;	
+	margin-left:10%;
+}
+h3{
+	font-size:1.2em;
+}
+#priceWork p:nth-child(3){
+	font-size:1.0em;
+}
+ul{
+	margin-left:0;
+	padding-left:0;
+	font-size:0.9em;
+}
+li{
+	padding-bottom:0.5em;
+	list-style-type: none;
+}
+footer > p{
+	border-radius:20px;
+	padding:1%;
+	background:#31293c;
+	text-align:center;
+	color:#fff;
+	font-size:.9em;
+	margin:0;
+}
+footer img{
+	width:5%;
+}
+footer section:nth-child(3) img {
+	width:10%;
+	margin:auto;
+}
+footer button.callButton{
+	padding: 0.5em 3em;
+}
+
+/* from this there are started styles for responsive*/
+
+
+@media screen and (min-width:780px) {
+	body{
+		margin:0;
+		width:100%;
+	}
+	#layOutMain{
+		padding:0;
+		width:70%;
+		margin:auto;
+	}
+
+	#divTop section{
+		display:inline-block;
+		width:49%;
+	}
+	#divTop section:nth-child(2) {
+		text-align:right;	
+	}
+	#divInfo{
+		position:relative;
+		margin:5% 0;
+		overflow:auto;
+	}
+	footer div{
+		width:80%;
+		margin:auto;
+		text-align:center;
+	}
+	footer div section{
+		display:inline-block;
+		margin:1%;
+		vertical-align:top;
+		width:30%;
+		text-align:left;
+	}
+	figure{
+		display:inline-block;
+	}
+	h1{
+		font-size:2.5em;
+	}
+	h2{
+		font-size:1.8em;
+	}
+	h3{
+		font-size:1.5em;
+	}
+	h4{
+		font-size:1.0em;
+	}
+	#mySkill figure {
+		width:20%;
+		margin:0 auto;
+ 	}
+ 	#mainImage{
+		float:right;
+	}
+}

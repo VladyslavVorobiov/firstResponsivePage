@@ -1,0 +1,10 @@
+body {
+        font-family:"Times New Roman", Times, serif;
+		width: 80%;
+        margin: 0 auto;
+}
+.lastResult {
+        color: white;
+        padding: 3px;
+}
+
